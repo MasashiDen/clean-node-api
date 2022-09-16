@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/MasashiDen/clean-node-api.git",
   "author": "MasashiDen <victor.ofuji@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
 }
