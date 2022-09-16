@@ -1,26 +1,30 @@
 {
-    "name": "clean-node-api",
-    "version": "1.0.0.",
-    "description": "Simple API",
-    "main": "index.js",
-    "repository": "https://github.com/MasashiDen/clean-node-api.git",
-    "author": "MasashiDen <victor.ofuji@gmail.com>",
-    "license": "MIT",
-    "lint-staged": {
-        "*.js": [
-            "standard --fix",
-            "git add"
-        ]
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "devDependencies": {
-        "husky": "^8.0.1",
-        "lint-staged": "^13.0.3",
-        "standard": "^17.0.0"
-    },
-    "dependencies": {}
+  "name": "clean-node-api",
+  "version": "1.0.0.",
+  "description": "Simple API",
+  "main": "index.js",
+  "repository": "https://github.com/MasashiDen/clean-node-api.git",
+  "author": "MasashiDen <victor.ofuji@gmail.com>",
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "jest": "^29.0.3",
+    "lint-staged": "^13.0.3",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "jest"
+  }
 }
